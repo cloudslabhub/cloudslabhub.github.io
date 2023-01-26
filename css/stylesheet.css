@@ -1,10 +1,19 @@
-#nombre {
+.centrar {
     margin: 0 auto;
     max-width: 400px;
 }
 
 #inner-nombre {
     margin-top: 60px;
+}
+
+#mildrett {
+    max-width: 300px;
+}
+
+#inner-mildrett {
+    margin: auto;
+    margin-top: 10px;
 }
 
 #bgvideo {
