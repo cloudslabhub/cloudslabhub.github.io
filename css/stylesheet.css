@@ -24,10 +24,31 @@
 #div-mensaje>p {
     margin: auto;
     margin-top: 35px;
+    text-shadow: 1px 1px 2px black;
     font-family: 'Pacifico';
     font-size: 24px;
     color: white;
     text-align: center;
+}
+
+#padrs-sec {
+    width: 100%;
+    margin-top: 60px;
+    /*background-color: #FADCD9;*/
+    background-color: white;
+    border-radius: 12px;
+}
+
+#padrs-sec>div>div>h3, #titulos>div>h2 {
+    margin-top: 50px;
+    font-family: 'Patua One';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+#titulos {
+    margin-top: -50px;
 }
 
 #bgvideo {
