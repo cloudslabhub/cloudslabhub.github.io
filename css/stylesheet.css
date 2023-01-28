@@ -1,13 +1,21 @@
+#inv {
+    font-family: 'Pacifico';
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
 .centrar {
     margin: 0 auto;
     max-width: 400px;
 }
 
 #inner-nombre {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #mildrett {
+    margin-top: -30px;
     max-width: 300px;
 }
 
@@ -15,6 +23,15 @@
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+#mensaje {
+    margin: 0 auto;
+}
+
+#inner-mensaje {
+    max-width: 500px;
+    margin-top: 30px;
 }
 
 #bgvideo {
