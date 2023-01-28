@@ -2,6 +2,9 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
 }
 
 #div-nombre {
@@ -48,7 +51,17 @@
 }
 
 #titulos {
-    margin-top: -50px;
+    margin-top: -30px;
+}
+
+#titulos>div>div {
+    font-family: 'Pacifico';
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 #bgvideo {
