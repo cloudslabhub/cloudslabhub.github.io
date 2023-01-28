@@ -1,37 +1,33 @@
-#msjtext {
+.centrar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#div-nombre {
+    max-width: 400px;
+}
+
+#div-mildrett {
+    margin-top: -40px;
+}
+
+#div-mildrett>img {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+#div-mensaje {
+    max-width: 500px;
+}
+
+#div-mensaje>p {
+    margin: auto;
+    margin-top: 35px;
     font-family: 'Pacifico';
     font-size: 24px;
     color: white;
     text-align: center;
-}
-
-.centrar {
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#inner-nombre {
-    margin-top: 0px;
-}
-
-#mildrett {
-    margin-top: -30px;
-    max-width: 300px;
-}
-
-#inner-mildrett {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
-#mensaje {
-    margin: 0 auto;
-}
-
-#inner-mensaje {
-    max-width: 500px;
-    margin-top: 30px;
 }
 
 #bgvideo {
