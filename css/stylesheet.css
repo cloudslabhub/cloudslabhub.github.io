@@ -42,10 +42,18 @@
     border-radius: 12px;
 }
 
-#padrs-sec>div>div>h3, #titulos>div>h2 {
+#padrs-sec>div>div>h3 {
     margin-top: 50px;
     font-family: 'Patua One';
     font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+#titulos>div>h2 {
+    margin-top: 50px;
+    font-family: 'Patua One';
+    font-size: 25px;
     color: black;
     text-align: center;
 }
@@ -56,6 +64,7 @@
 
 #titulos>div>div {
     font-family: 'Pacifico';
+    font-size: 35px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
