@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row centrar">
             <div id="div-nombre" class="twelve columns">
-                <img src="media/img/nombre.svg" alt="mildrett aileen quince años">
+                <img id="nombre" src="media/img/nombre.svg" alt="mildrett aileen quince años">
             </div>
         </div>
 
@@ -69,6 +69,7 @@
     </div>
 
     <script>
+        document.getElementById('nombre').setAttribute('draggable', false);
         document.getElementById('mildrett').setAttribute('draggable', false);
     </script>
 </body>

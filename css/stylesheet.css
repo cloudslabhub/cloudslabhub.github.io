@@ -8,11 +8,12 @@
 }
 
 #div-nombre {
-    max-width: 400px;
+    margin-top: 40px;
+    max-width: 350px;
 }
 
 #div-mildrett {
-    margin-top: -40px;
+    margin-top: 40px;
 }
 
 #div-mildrett>img {
