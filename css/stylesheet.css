@@ -51,6 +51,10 @@
     text-align: center;
 }
 
+#padrs-sec>div>div>h4 {
+    font-family: Pacifico;
+}
+
 #titulos>div>h2 {
     margin-top: 50px;
     font-family: 'Patua One';
